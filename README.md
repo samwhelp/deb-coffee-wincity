@@ -125,7 +125,7 @@ pacstall -A "file://${HOME}/Documents/deb-coffee-wincity"
 ### Search
 
 ``` sh
-pacstall -S demo
+pacstall -S win11
 ```
 
 ``` sh
@@ -136,19 +136,19 @@ pacstall -S bean
 ### Build and Install
 
 ``` sh
-pacstall -I demo
+pacstall -I bean-appearance-win11-gtk-theme
 ```
 
 
 ### Only Build
 
 ``` sh
-pacstall -I -B demo
+pacstall -I -B bean-appearance-win11-gtk-theme
 ```
 
 
 ### Download pacscript
 
 ``` sh
-pacstall -D demo
+pacstall -D bean-appearance-win11-gtk-theme
 ```
