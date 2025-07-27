@@ -130,7 +130,7 @@ package () {
 
 	#prjdir="${_archive}"
 
-	prjdir="${srcdir}/Win11OS-kde-main"
+	prjdir="${srcdir}/Win11Nord-kde-main"
 
 
 	echo
