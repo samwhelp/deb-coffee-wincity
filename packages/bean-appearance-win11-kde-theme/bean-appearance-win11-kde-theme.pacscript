@@ -84,6 +84,14 @@ mod_theme_install_plasma_theme () {
 	util_copy_from_srcdir_to_desdir "${src_dir_path}" "${des_dir_path}"
 
 
+
+
+	echo rm -f "${des_dir_path}/look-and-feel/com.github.yeyushengfan258.Win11OS-light.tar.xz"
+	rm -f "${des_dir_path}/look-and-feel/com.github.yeyushengfan258.Win11OS-light.tar.xz"
+
+
+
+
 	return 0
 }
 
