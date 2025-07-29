@@ -4,7 +4,7 @@ arch=("all")
 pkgver="0.1.1"
 pkgdesc="Win11 Endless Kde Theme"
 maintainer="develop <develop@home.heaven>"
-source=("https://github.com/yeyushengfan258/Endless/archive/refs/heads/main.tar.gz")
+source=("https://github.com/yeyushengfan258/Endless-kde/archive/refs/heads/main.tar.gz")
 url="https://github.com/samwhelp/deb-coffee-wincity/tree/main/packages/bean-appearance-win11-endless-kde-theme"
 depends=()
 pacdeps=()
@@ -130,7 +130,7 @@ package () {
 
 	#prjdir="${_archive}"
 
-	prjdir="${srcdir}/Endless-main"
+	prjdir="${srcdir}/Endless-kde-main"
 
 
 	echo
